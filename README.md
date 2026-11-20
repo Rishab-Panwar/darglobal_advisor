@@ -1,4 +1,4 @@
-# Property Assistant: an agentic RAG chatbot for Dar Global and Wasalt
+# Property Advisor: an agentic RAG assistant for Dar Global and Wasalt
 
 An agent that answers questions about **Dar Global** (darglobal.co.uk) and **Wasalt** (wasalt.sa)
 using public data scraped from both sites. It runs on **Gemini on Vertex AI**, with **free OpenRouter models** wired in
