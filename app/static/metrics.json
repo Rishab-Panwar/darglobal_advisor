@@ -1,0 +1,101 @@
+{
+ "generated": "2026-11-20",
+ "retrieval": {
+  "bm25": {
+   "hit@1": 0.7,
+   "hit@3": 0.833,
+   "hit@6": 0.9,
+   "MRR": 0.771
+  },
+  "dense": {
+   "hit@1": 0.7,
+   "hit@3": 0.867,
+   "hit@6": 0.867,
+   "MRR": 0.772
+  },
+  "hybrid": {
+   "hit@1": 0.767,
+   "hit@3": 0.867,
+   "hit@6": 0.9,
+   "MRR": 0.818
+  }
+ },
+ "e2e": {
+  "tool_selection_acc": 1.0,
+  "answer_keyword_acc": 1.0,
+  "safety_pass": "10/10",
+  "p50_latency_s": 5.4,
+  "n": 47,
+  "questions": 47
+ },
+ "offline_tests": [
+  {
+   "name": "tests/test_calculator.py",
+   "passed": true,
+   "detail": "7 test groups passed"
+  },
+  {
+   "name": "tests/test_compare.py",
+   "passed": true,
+   "detail": "5 compare test groups passed"
+  },
+  {
+   "name": "tests/test_guardrails.py",
+   "passed": true,
+   "detail": "4 test groups passed (15 attacks, 16 legit questions)"
+  },
+  {
+   "name": "tests/test_stt_unit.py",
+   "passed": true,
+   "detail": "stt unit tests passed"
+  },
+  {
+   "name": "tests/test_data_quality.py",
+   "passed": true,
+   "detail": "6 data-quality test groups passed"
+  },
+  {
+   "name": "tests/test_llm_unit.py",
+   "passed": true,
+   "detail": "5 model-chain test groups passed"
+  }
+ ],
+ "browser_suites": [
+  {
+   "name": "tests/ui_calculator.py",
+   "label": "Investment calculator",
+   "suite": "ui_calculator",
+   "passed": 32,
+   "total": 32,
+   "target": "https://property-assistant-1069800969634.europe-west2.run.app",
+   "date": "2026-11-20"
+  },
+  {
+   "name": "tests/ui_compare.py",
+   "label": "Comparison in chat",
+   "suite": "ui_compare",
+   "passed": 31,
+   "total": 31,
+   "target": "https://property-assistant-1069800969634.europe-west2.run.app",
+   "date": "2026-11-20"
+  },
+  {
+   "name": "tests/ui_compare_builder.py",
+   "label": "Comparison builder",
+   "suite": "ui_compare_builder",
+   "passed": 33,
+   "total": 33,
+   "target": "https://property-assistant-1069800969634.europe-west2.run.app",
+   "date": "2026-11-20"
+  },
+  {
+   "name": "tests/ui_voice.py",
+   "label": "Voice (Chrome + fake microphone)",
+   "suite": "ui_voice",
+   "passed": 32,
+   "total": 32,
+   "target": "https://property-assistant-1069800969634.europe-west2.run.app",
+   "date": "2026-11-20"
+  }
+ ]
+}

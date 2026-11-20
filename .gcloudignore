@@ -1,0 +1,7 @@
+.env
+.git
+.gitignore
+scraper/.chrome-profile/
+**/__pycache__/
+*.log
+.cache/

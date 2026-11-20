@@ -1,0 +1,373 @@
+[
+ {
+  "source": "wasalt",
+  "name": "Shams Al Riyadh",
+  "location": "Al Rihab, East, Riyadh",
+  "city": "Riyadh",
+  "developer": "Dar Al Arkan Real Estate Development",
+  "status": "Under Construction",
+  "starts_from": "2.4M",
+  "units_listed": 10,
+  "min_unit_price_sar": 2460000.0,
+  "max_unit_price_sar": 135045300.0,
+  "sample_units": [
+   {
+    "unit_title": "Land 1920 SQM",
+    "price_sar": 17760000.0,
+    "area_sqm": 1920.0
+   },
+   {
+    "unit_title": "Land 1920 SQM",
+    "price_sar": 17760000.0,
+    "area_sqm": 1920.0
+   },
+   {
+    "unit_title": "Land 3653.06 SQM",
+    "price_sar": 31051010.0,
+    "area_sqm": 3653.06
+   },
+   {
+    "unit_title": "Land 13504.53 SQM",
+    "price_sar": 135045300.0,
+    "area_sqm": 13504.53
+   },
+   {
+    "unit_title": "Land 300 SQM",
+    "price_sar": 2460000.0,
+    "area_sqm": 300.0
+   }
+  ],
+  "about": "يقع مشروع شمس الرياض في موقع حيوي شمال الرياض على طريق الملك خالد حيث سهولة الوصول إلى أهم الوجهات ومناطق الجذب الرئيسية في المدينة. مجتمع استثنائي مبني على مستوى جديد من التكامل تم الاعتناء بأدق التفاصيل بدءًا من المساحات متعددة الاستخدامات كفلل سكنية ومساحات تجارية عامرة بمراكز تسوق حيوية ومطاعم متعددة، إلى المسارات المُحاطة بأسطح خضراء ومناطق لعب الأطفال، بالإضافة إلى المرافق الشاملة كالمدارس والجهات الحكومية والمساجد، ليمنحك هذا المجتمع الاستثنائي حياة مُريحة هادئة وعصرية.وايضا طبيعة خلابة تحتضنك في وادي حنيفة يحيط بوادي حنيفة مسطحات خضراء ومتنزهات ومساحات مفتوحة وتتخلله جداول المياه، مما يخلق من “شمس الرياض” بيئة سكنية استثنائية لك ولأسرتك.",
+  "url": "https://wasalt.sa/en/project/Riyadh/shams-al-riyadh-100325",
+  "developer_ar": "دار الأركان للتطوير العقاري"
+ },
+ {
+  "source": "wasalt",
+  "name": "دروازة",
+  "location": "Al Aarid, Riyadh",
+  "city": "Riyadh",
+  "developer": "Christies International Real Estate KSA",
+  "status": null,
+  "starts_from": "2.46M",
+  "units_listed": 10,
+  "min_unit_price_sar": 2459000.0,
+  "max_unit_price_sar": 2539000.0,
+  "sample_units": [
+   {
+    "unit_title": "Villa 414 SQM",
+    "price_sar": 2459000.0,
+    "area_sqm": 414.0
+   },
+   {
+    "unit_title": "Villa 414 SQM",
+    "price_sar": 2459000.0,
+    "area_sqm": 414.0
+   },
+   {
+    "unit_title": "Villa 414 SQM",
+    "price_sar": 2459000.0,
+    "area_sqm": 414.0
+   },
+   {
+    "unit_title": "Villa 414 SQM",
+    "price_sar": 2459000.0,
+    "area_sqm": 414.0
+   },
+   {
+    "unit_title": "Villa 414 SQM",
+    "price_sar": 2459000.0,
+    "area_sqm": 414.0
+   }
+  ],
+  "about": "يتميز المشروع بتصميم عصري و فاخر يظهر في كل تفصيلة, مع التركيز على تناسق الألوان و المواد و التشطيبات لاضفاء جمالية استثنائية على المرافق و الفلل الموجودة داخل المشروع.",
+  "url": "https://wasalt.sa/en/project/Riyadh/%D8%AF%D8%B1%D9%88%D8%A7%D8%B2%D8%A9-100323",
+  "images": [
+   "/static/img/p/0f7ddafa70c7.webp",
+   "/static/img/p/db921de9587d.webp"
+  ]
+ },
+ {
+  "source": "wasalt",
+  "name": "Calma GH220",
+  "location": "Al-Ghadeer, North, Riyadh",
+  "city": "Riyadh",
+  "developer": "Christies International Real Estate KSA",
+  "status": null,
+  "starts_from": "2.55M",
+  "units_listed": 2,
+  "min_unit_price_sar": 2550000.0,
+  "max_unit_price_sar": 3300000.0,
+  "sample_units": [
+   {
+    "unit_title": "Apartment 215 SQM with 3 Bedrooms",
+    "price_sar": 2550000.0,
+    "area_sqm": 215.0
+   },
+   {
+    "unit_title": "Villa 391 SQM",
+    "price_sar": 3300000.0,
+    "area_sqm": 391.0
+   }
+  ],
+  "about": "يتكون المشروع من 30 دور سكني يتميز بجودة انشائها و و اتقان تشطيباتها و جمال واجهاتها.",
+  "url": "https://wasalt.sa/en/project/Riyadh/calma-gh220-100322",
+  "images": [
+   "/static/img/p/d60de0a7fa98.webp",
+   "/static/img/p/aa92bc9c1395.webp"
+  ]
+ },
+ {
+  "source": "wasalt",
+  "name": "Rafia",
+  "location": "Ar-Rafeah, West, Riyadh",
+  "city": "Riyadh",
+  "developer": "Christies International Real Estate KSA",
+  "status": null,
+  "starts_from": "4.4M",
+  "units_listed": 10,
+  "min_unit_price_sar": 4400000.0,
+  "max_unit_price_sar": 4800000.0,
+  "sample_units": [
+   {
+    "unit_title": "Villa 300 SQM",
+    "price_sar": 4400000.0,
+    "area_sqm": 300.0
+   },
+   {
+    "unit_title": "Villa 300 SQM",
+    "price_sar": 4400000.0,
+    "area_sqm": 300.0
+   },
+   {
+    "unit_title": "Villa 300 SQM",
+    "price_sar": 4400000.0,
+    "area_sqm": 300.0
+   },
+   {
+    "unit_title": "Villa 300 SQM",
+    "price_sar": 4400000.0,
+    "area_sqm": 300.0
+   },
+   {
+    "unit_title": "Villa 300 SQM",
+    "price_sar": 4400000.0,
+    "area_sqm": 300.0
+   }
+  ],
+  "about": "كل تفصيل في المشروع مصمم بعناية فائقة لضمان تحقيق أعلى درجات الرضا و الراحة للسكان من خلال توفير مساحات معيشية واسعة و مشرقة, و تصاميم داخلية تجمع بين الاناقة و العملية, و مرافق مجتمعية تلبي كافة تلبي كافة الاحتياجات و توفر أجواء من الانسجام و التكامل الاجتماعي.",
+  "url": "https://wasalt.sa/en/project/Riyadh/rafia-100324",
+  "images": [
+   "/static/img/p/092f56f6e8d9.webp",
+   "/static/img/p/d2ea0fd1cc39.webp"
+  ]
+ },
+ {
+  "source": "wasalt",
+  "name": "Dyari Compound Ishbiliyah",
+  "location": "Ishbiliyah, East, Riyadh",
+  "city": "Riyadh",
+  "developer": "Christies International Real Estate KSA",
+  "status": null,
+  "starts_from": "930K",
+  "units_listed": 8,
+  "min_unit_price_sar": 930000.0,
+  "max_unit_price_sar": 1899942.0,
+  "sample_units": [
+   {
+    "unit_title": "Apartment with 3 Bedrooms",
+    "price_sar": 1763529.0,
+    "area_sqm": null
+   },
+   {
+    "unit_title": "Apartment with 3 Bedrooms",
+    "price_sar": 1528235.0,
+    "area_sqm": null
+   },
+   {
+    "unit_title": "Apartment with 2 Bedrooms",
+    "price_sar": 930000.0,
+    "area_sqm": null
+   },
+   {
+    "unit_title": "Apartment with 3 Bedrooms",
+    "price_sar": 1410588.0,
+    "area_sqm": null
+   },
+   {
+    "unit_title": "Apartment with 3 Bedrooms",
+    "price_sar": 1899942.0,
+    "area_sqm": null
+   }
+  ],
+  "about": "حيث التفرد والإتقان يأتي بمشروع دياري كومباوند إشبيليا لِيخلق مجتمعاً حيوياً يُلبي إحتياجاتك في مكان واحد. يقع المشروع في حي إشبيليا ويتميز بقربه من الخدمات والطرق الرئيسية. يتكون المشروع من 13 مبنى و 151 شقة سكنية بمساحات متنوعة تبدأ من 90 مترًا إلى 330 مترًا. بتصاميم حديثة تلبي تطلعاتك، يتميز دياري كومباوند إشبيليا بأنه مجمع سكني متكامل ويحتوي على مساحات خضراء ومساحات مائية بالإضافة إلى كافة المرافق مثل : حديقة علوية ، صالة رياضية ، وصالة سينما ، و المصلى كما وفرنا حضانة متخصصة لرعاية أطفالكم والعديد من المميزات التي تجعله مجتمعاً ينبض بالحياة.",
+  "url": "https://wasalt.sa/en/project/Riyadh/dyari-compound-ishbiliyah-100333",
+  "images": [
+   "/static/img/p/c4c424722b21.webp"
+  ]
+ },
+ {
+  "source": "wasalt",
+  "name": "Sadeem Town Apartment",
+  "location": "As-Safa, Center, Riyadh",
+  "city": "Riyadh",
+  "developer": "Christies International Real Estate KSA",
+  "status": null,
+  "starts_from": "954.25K",
+  "units_listed": 5,
+  "min_unit_price_sar": 954255.0,
+  "max_unit_price_sar": 1314000.0,
+  "sample_units": [
+   {
+    "unit_title": "Apartment 133 SQM with 2 Bedrooms",
+    "price_sar": 992956.0,
+    "area_sqm": 133.0
+   },
+   {
+    "unit_title": "Apartment 133 SQM with 2 Bedrooms",
+    "price_sar": 992956.0,
+    "area_sqm": 133.0
+   },
+   {
+    "unit_title": "Apartment 131 SQM with 2 Bedrooms",
+    "price_sar": 954255.0,
+    "area_sqm": 131.0
+   },
+   {
+    "unit_title": "Apartment 143 SQM with 3 Bedrooms",
+    "price_sar": 1314000.0,
+    "area_sqm": 143.0
+   },
+   {
+    "unit_title": "Apartment 130 SQM with 2 Bedrooms",
+    "price_sar": 954255.0,
+    "area_sqm": 130.0
+   }
+  ],
+  "about": "تتنوع تصاميم الشقق و مزاياها لتلبي مختلف احتياجاتك, لكنها تجتمع بكونها تمتزج ما بين الفخامة, و رحابة الاعمار؛ لتكن مسكنا\" تعيش به أمانك و أجمل سنواتك.",
+  "url": "https://wasalt.sa/en/project/Riyadh/sadeem-town-apartment-100320",
+  "images": [
+   "/static/img/p/7a4a45bc7cc9.webp",
+   "/static/img/p/71c35f1a9886.webp"
+  ]
+ },
+ {
+  "source": "wasalt",
+  "name": "مشروع مشيد 10",
+  "location": "Qurtubah, East, Riyadh",
+  "city": "Riyadh",
+  "developer": "شركة مشيد للتطوير العقاري",
+  "status": null,
+  "starts_from": "1.06M",
+  "units_listed": 7,
+  "min_unit_price_sar": 1059000.0,
+  "max_unit_price_sar": 1599000.0,
+  "sample_units": [
+   {
+    "unit_title": "Apartment with 2 Bedrooms",
+    "price_sar": 1150000.0,
+    "area_sqm": null
+   },
+   {
+    "unit_title": "Apartment with 2 Bedrooms",
+    "price_sar": 1059000.0,
+    "area_sqm": null
+   },
+   {
+    "unit_title": "Apartment with 2 Bedrooms",
+    "price_sar": 1149000.0,
+    "area_sqm": null
+   },
+   {
+    "unit_title": "Apartment with 3 Bedrooms",
+    "price_sar": 1199000.0,
+    "area_sqm": null
+   },
+   {
+    "unit_title": "Apartment with 3 Bedrooms",
+    "price_sar": 1279000.0,
+    "area_sqm": null
+   }
+  ],
+  "about": "مجمع سكني متكامل المميزات والمرافق حيث يتضمن (سينما، وحضانة، ونوادي رياضية) ليجمع بين الخصوصية والرفاهية بموقع استراتيجي يقدم فرصة استثمارية بعوائد مستدامة وقيّمة سوقية متصاعدة. إجمالي عدد الوحدات 119 شقة ، مساحة المشروع كامل 6,840م",
+  "url": "https://wasalt.sa/en/project/Riyadh/mshrwa-mshyd-10-100582",
+  "images": [
+   "/static/img/p/f7699f3ffa3f.webp",
+   "/static/img/p/5949a22363a7.webp"
+  ]
+ },
+ {
+  "source": "wasalt",
+  "name": "Dyari Compound - AL Aarid",
+  "location": "Al Aarid, Riyadh",
+  "city": "Riyadh",
+  "developer": "Christies International Real Estate KSA",
+  "status": null,
+  "starts_from": "1.11M",
+  "units_listed": 4,
+  "min_unit_price_sar": 1107621.0,
+  "max_unit_price_sar": 2351765.0,
+  "sample_units": [
+   {
+    "unit_title": "Apartment with 2 Bedrooms",
+    "price_sar": 1107621.0,
+    "area_sqm": null
+   },
+   {
+    "unit_title": "Apartment with 3 Bedrooms",
+    "price_sar": 2351765.0,
+    "area_sqm": null
+   },
+   {
+    "unit_title": "Apartment with 3 Bedrooms",
+    "price_sar": 1495952.0,
+    "area_sqm": null
+   },
+   {
+    "unit_title": "Apartment with 3 Bedrooms",
+    "price_sar": 1745475.0,
+    "area_sqm": null
+   }
+  ],
+  "about": "حيث التفرد والإتقان، يأتي مشروع دياري كومباوند العارض ليخلق مجتمعًا حيويًا يلبي احتياجاتك في مكان واحد. يتكون المشروع من 7 عمائر و93 شقة سكنية بمساحات متنوعة تبدأ من 90 مترًا إلى 315 مترًا، بتصاميم حديثة تلبي تطلعاتك. يتميز دياري العارض بأنه مجمع سكني متكامل، ويحتوي على مساحات خضراء ومسطحات مائية، بالإضافة إلى كافة المرافق مثل: صالة رياضية، صالة سينما، غرفة للعمل والدراسة. كما وفرنا حضانة متخصصة لرعاية أطفالكم، ومناطق خاصة لضيوفكم، والعديد من المميزات التي تجعله مجتمعًا ينبض بالحياة",
+  "url": "https://wasalt.sa/en/project/Riyadh/dyari-compound-al-aarid-100334",
+  "images": [
+   "/static/img/p/ff865a4375b5.webp",
+   "/static/img/p/3201d3b9d88b.webp"
+  ]
+ },
+ {
+  "source": "wasalt",
+  "name": "Jadeel Floors",
+  "location": "Ar-Rimal, East, Riyadh",
+  "city": "Riyadh",
+  "developer": "Christies International Real Estate KSA",
+  "status": null,
+  "starts_from": "1.13M",
+  "units_listed": 3,
+  "min_unit_price_sar": 1128000.0,
+  "max_unit_price_sar": 1339000.0,
+  "sample_units": [
+   {
+    "unit_title": "Apartment with 3 Bedrooms",
+    "price_sar": 1128000.0,
+    "area_sqm": null
+   },
+   {
+    "unit_title": "Apartment with 3 Bedrooms",
+    "price_sar": 1147000.0,
+    "area_sqm": null
+   },
+   {
+    "unit_title": "Apartment with 3 Bedrooms",
+    "price_sar": 1339000.0,
+    "area_sqm": null
+   }
+  ],
+  "about": "يمتاز المشروع يتصميمه العصري و مخططاته الحديثة التي تتوافق مع التطور العمراني و للمجتمعات السعودية و يبرز كوجهة سكنية تمثل راحة العائلة و سعادتها.",
+  "url": "https://wasalt.sa/en/project/Riyadh/jadeel-floors-100332",
+  "images": [
+   "/static/img/p/c0944fd60931.webp",
+   "/static/img/p/d4b32be4d50b.webp"
+  ]
+ }
+]

@@ -1,0 +1,8 @@
+scraper/.chrome-profile/
+__pycache__/
+.venv/
+venv/
+.env
+*.log
+.cache/
+scraper/hero_candidates/

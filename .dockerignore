@@ -1,0 +1,8 @@
+scraper/
+eval/
+**/__pycache__
+.env
+*.log
+.git
+.cache
+tests/

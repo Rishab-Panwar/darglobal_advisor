@@ -1,0 +1,700 @@
+[
+ {
+  "source": "darglobal",
+  "name": "Trump International Hotel & Tower Dubai",
+  "location": "Dubai, UAE",
+  "country": "United Arab Emirates",
+  "brand_partner": "Trump",
+  "tagline": "",
+  "url": "https://darglobal.co.uk/trump-international-hotel-and-tower-dubai",
+  "property_type": "Branded Hotel & Residential Tower",
+  "unit_types": "1, 2, 3 Bedroom Apartments & 4 Bedroom Duplex Penthouses",
+  "status": "Under Development",
+  "area_sqm": "109 - 722",
+  "specs_from_text": [
+   "area_sqm"
+  ],
+  "description": "Trump International Hotel & Tower Dubai is the Middle East's first and only Trump-branded address, developed by DarGlobal on Sheikh Zayed Road at the entrance to Downtown Dubai. The development combines a five-star hotel, private residences, and a members-only club in one building. Units span 109 to 722 sqm across one- to three-bedroom apartments and four-bedroom duplex penthouses, with sea or Burj Khalifa views from every unit.",
+  "images": [
+   "/static/img/p/c6451d064416.webp",
+   "/static/img/p/4ffe4f33f0d7.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "D-Villas at Jumeirah Golf Estates",
+  "location": "Dubai, UAE",
+  "country": "United Arab Emirates",
+  "brand_partner": null,
+  "tagline": "",
+  "url": "https://darglobal.co.uk/d-villas-at-jge",
+  "property_type": "Luxury Villas",
+  "status": "Under Development",
+  "unit_types": "4 and 5-Bedroom Villas",
+  "description": "Discover the epitome of luxury living in Dubai's premier golf destination. Nestled amidst the lush greenery of Jumeirah Golf Estates, D-Villas offers a harmonious blend of sophistication and vibrant community living. Enjoy exclusive access to world-class golf courses, premium leisure facilities, and a location that keeps you connected to the city's finest attractions.",
+  "images": [
+   "/static/img/p/b52c79337a85.webp",
+   "/static/img/p/9256d63e2717.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "The Astera, Interiors by Aston Martin",
+  "location": "Al Marjan Island, RAK, UAE",
+  "country": "United Arab Emirates",
+  "brand_partner": "Aston Martin",
+  "tagline": "",
+  "url": "https://darglobal.co.uk/the-astera",
+  "property_type": "Beach Residences and Villas",
+  "status": "Under Development",
+  "unit_types": "1 to 3-bedroom residences & 3-bedroom beach villas",
+  "area_sqm": "61 - 265",
+  "specs_from_text": [
+   "area_sqm"
+  ],
+  "description": "The Astera, Interiors by Aston Martin is a beachfront residential development on Al Marjan Island, Ras Al Khaimah, by DarGlobal. Residences range from one- to three-bedroom apartments and three-bedroom beach villas, spanning 61 to 265 sqm, with Aston Martin-designed interiors and direct access to the beach on the water's edge.",
+  "images": [
+   "/static/img/p/799394484d33.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "DG1",
+  "location": "Dubai, United Arab Emirates",
+  "country": "United Arab Emirates",
+  "brand_partner": null,
+  "tagline": "",
+  "url": "https://darglobal.co.uk/dg1",
+  "property_type": "Residential Tower",
+  "status": "Under Development",
+  "unit_types": "Studios, 1, 2, & 3-bedrooms",
+  "description": "An exclusive capsule collection of luxury residences made for people who see what others don’t, do what others only dream of, and craft their futures on their own terms. The architecture of DG1 fully reflects its dynamic attitude. Like a haute couture creation, its distinctive twisting profile opens the doors of imagination, inspiring each of us in a different way.",
+  "images": [
+   "/static/img/p/0c485622abdd.webp",
+   "/static/img/p/3da30989b273.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Da Vinci Tower, Interiors by Pagani",
+  "location": "Dubai, United Arab Emirates",
+  "country": "United Arab Emirates",
+  "brand_partner": "Pagani",
+  "tagline": "",
+  "url": "https://darglobal.co.uk/davinci-tower-by-pagani",
+  "property_type": "Branded Residential Tower",
+  "status": "Completed",
+  "unit_types": "2, 3 & 4-bedrooms",
+  "area_sqm": "77 - 398",
+  "specs_from_text": [
+   "area_sqm"
+  ],
+  "description": "Da Vinci Tower is the world's first residences by Pagani, a branded residential tower in Downtown Dubai, developed by DarGlobal with interiors crafted by Pagani Automobili. An architectural marvel designed to captivate, its striking façade is balanced on a one-of-a-kind geometric structure that creates a dynamic visual effect commanding attention. At its heart lies the pearl, a suspended sphere that adds a touch of wonder to this masterpiece.",
+  "images": [
+   "/static/img/p/fcf1d6680e34.webp",
+   "/static/img/p/47e0c6dda283.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Urban Oasis by Missoni",
+  "location": "Dubai, United Arab Emirates",
+  "country": "United Arab Emirates",
+  "brand_partner": "Missoni",
+  "tagline": "",
+  "url": "https://darglobal.co.uk/urban-oasis-by-missoni",
+  "property_type": "Branded Residential Tower",
+  "status": "Completed & Sold Out",
+  "unit_types": "1,2 & 3-Bedrooms",
+  "description": "Urban Oasis by Missoni is a completed branded residential tower on the Dubai Canal, developed by DarGlobal with Missoni-designed interiors. The tower offers one-, two-, and three-bedroom residences and penthouses accessed by private elevators, each with sweeping 360-degree views of the canal and the Dubai skyline. Located directly on the canal with Downtown Dubai 5 minutes away, the project is now sold out and fully completed.",
+  "images": [
+   "/static/img/p/80ba8f9e87ca.webp",
+   "/static/img/p/9524ce1cb255.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "W Residences",
+  "location": "Dubai, United Arab Emirates",
+  "country": "United Arab Emirates",
+  "brand_partner": "W Residences",
+  "tagline": "",
+  "url": "https://darglobal.co.uk/w-residences",
+  "property_type": "Branded Residential Tower",
+  "unit_types": "1, 2 & 3-bedrooms",
+  "status": "Completed & Sold Out",
+  "description": "W Residences is a completed W Hotels-branded residential tower in Downtown Dubai, developed by DarGlobal. The tower offers one-, two-, and three-bedroom residences with direct views of the Burj Khalifa, the Dubai Fountain, and the Dubai Canal, and sits steps from Dubai Mall. The project is sold out and fully delivered. Buyers seeking availability should enquire about the secondary market via our website",
+  "images": [
+   "/static/img/p/e7f56b08b00b.webp",
+   "/static/img/p/c8244a4ca204.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "The Pagani Penthouse",
+  "location": "Dubai, UAE",
+  "country": "United Arab Emirates",
+  "brand_partner": "Pagani",
+  "tagline": "",
+  "url": "https://darglobal.co.uk/one-of-one/project-pagani",
+  "status": "Sold Out",
+  "area_sqm": "1372",
+  "property_type": "Penthouse",
+  "specs_from_text": [
+   "area_sqm",
+   "property_type",
+   "status"
+  ],
+  "description": "Pagani’s essence has taken shape, for the first time in the world, in a residential building in the heart of Dubai. The culmination of the first ever living experience, by the super automaker is the Penthouse. Spanning 14,768 sqft, where every square foot is worthy of a masterpiece.",
+  "images": [
+   "/static/img/p/26ac670a5a62.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Top of The Astera",
+  "location": "Al Marjan Island, RAK, UAE",
+  "country": "United Arab Emirates",
+  "brand_partner": null,
+  "tagline": "",
+  "url": "https://darglobal.co.uk/one-of-one/top-of-the-astera",
+  "property_type": "Villa",
+  "specs_from_text": [
+   "property_type"
+  ],
+  "description": "Introducing the Top of the Astera – the world’s first villa in the sky with interiors by Aston Martin. Rising above Al Marjan Island, this masterpiece redefines luxury, offering breathtaking views and unparalleled elegance. Experience the prestige of living above the clouds and beyond the ordinary.",
+  "images": [
+   "/static/img/p/c8a91c516669.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Tierra Viva, Design Inspired by Automobili Lamborghini",
+  "location": "Benahavís, Spain",
+  "country": "Spain",
+  "brand_partner": "Lamborghini",
+  "tagline": "",
+  "url": "https://darglobal.co.uk/tierra-viva",
+  "property_type": "Villa",
+  "status": "Under Development",
+  "unit_types": "Limited Collection Villas",
+  "area_sqm": "680 - 1,515",
+  "description": "Tierra Viva is an ultra-luxury, gated villa community in the hills of Benahavís, Costa Del Sol, developed by DarGlobal with design inspired by Automobili Lamborghini. A limited collection of villas ranging from 700 to 1,450 sqm sits tiered across the hillside, each positioned for panoramic views of the Mediterranean Sea. Located 15 minutes from Marbella and minutes from Puerto Banús and 12 golf clubs.",
+  "images": [
+   "/static/img/p/617d8e946b9d.webp",
+   "/static/img/p/76ff428742b3.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Painite Villas Design Inspired by Automobili Lamborghini",
+  "location": "Benahavís, Spain",
+  "country": "Spain",
+  "brand_partner": "Lamborghini",
+  "tagline": "",
+  "url": "https://darglobal.co.uk/one-of-one/painite-villas-design-inspired-by-Automobili-Lamborghini",
+  "status": "Waiting List Open",
+  "property_type": "Villas",
+  "specs_from_text": [
+   "property_type",
+   "status"
+  ],
+  "description": "The Painite Villas are the only villas in the South of Spain with the exclusive Sky Car Lift with technology by Automobili Lamborghini. Located in the hills of Benahavis, overlooking Marbella, the Painite Villas rise out from the hills, offering panoramic views of the Mediterranean Sea and the Andalusian landscape. The villas fitted with Automobili Lamborghini interiors have their very own private car elevator. The Sky Car Lift has access to both levels of the villa, seamlessly integrating your supercar into your living space.",
+  "images": [
+   "/static/img/p/22110a13a438.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Marea, Interiors by Missoni",
+  "location": "Cortesin, Spain",
+  "country": "Spain",
+  "brand_partner": "Missoni",
+  "tagline": "",
+  "url": "https://darglobal.co.uk/marea",
+  "property_type": "Branded Residential Complex",
+  "status": "Under Development",
+  "unit_types": "2, 3 and 4 bedroom",
+  "area_sqm": "147 -382",
+  "description": "Marea, Interiors by Missoni is an exclusive gated residential community within the Finca Cortesin estate, Cortesin, Costa Del Sol, developed by DarGlobal. The collection offers two-, three-, and four-bedroom residences ranging from 223 to 553 sqm, with Missoni-designed interiors and a 270-degree panorama spanning from Marbella to Gibraltar and the mountains of Morocco.",
+  "images": [
+   "/static/img/p/3faa21cdf8e4.webp",
+   "/static/img/p/5b2b8ea8a874.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Les Vagues by Elie Saab",
+  "location": "Doha, Qatar",
+  "country": "Qatar",
+  "brand_partner": "Elie Saab",
+  "tagline": "",
+  "url": "https://darglobal.co.uk/les-vagues",
+  "property_type": "Branded Residential Complex",
+  "status": "Under Development",
+  "unit_types": "1, 2 & 3-bedrooms",
+  "area_sqm": "84 - 383",
+  "description": "Les Vagues by Elie Saab is a branded seafront residential complex on Qetaifan Island North, Doha, developed by DarGlobal. One-, two-, and three-bedroom residences ranging from 86 to 389 sqm feature Elie Saab interiors in cream and grey tones, with marble, bronze, and premium stone finishes. The island destination includes private beaches, a marina, a water park, and an 18-hole golf course.",
+  "images": [
+   "/static/img/p/6c1237b83288.webp",
+   "/static/img/p/462fd1e9e184.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Trump International Simaisma, Qatar",
+  "location": "Simaisma, Qatar",
+  "country": "Qatar",
+  "brand_partner": "Trump",
+  "tagline": "",
+  "url": "https://darglobal.co.uk/lp/trump-international-qatar",
+  "property_type": "Classical, Andalusian, and Contemporary Villas",
+  "area_sqm": "199 - 451",
+  "unit_types": "3 - 5 Bedroom Villas",
+  "status": "Under Development",
+  "description": "DarGlobal and The Trump Organization, in collaboration with Qatari Diar, bring Trump International Simaisma, Qatar to Qatar’s eastern coast. Set within the 8 million sqm Simaisma destination, the project is surrounded by 7 km of waterfront, with access to leisure, hospitality, entertainment, golf, marina, dining and retail experiences.",
+  "images": [
+   "/static/img/p/a36e0e5068b4.webp",
+   "/static/img/p/ec54bb1c1ba0.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Trump International Hotel, Oman",
+  "location": "Muscat, Oman",
+  "country": "Oman",
+  "brand_partner": "Trump",
+  "tagline": "",
+  "url": "https://darglobal.co.uk/aida-trump-international-hotel",
+  "property_type": "Hotel",
+  "unit_types": "Rooms, Junior Suites & Suites",
+  "status": "Under Development",
+  "area_sqm": "53 - 168",
+  "benefits": "2 weeks complimentary holiday annually",
+  "description": "Owning in a room within Trump Hotels puts you at the heart of it all with expert management and investment safety. The Trump International Hotel, Oman encompasses a luxury hotel, hanging suites with stunning views, furnished residences, a championship golf course, a members-only club, and SHFT Night Club. Trump Hotels personal mission is to deliver unparalleled service and experiences so that you never have to settle for anything less than extraordinary.  In addition to a luxury investment, you have the exclusive privilege of enjoying two weeks a year for personal indulgence.",
+  "images": [
+   "/static/img/p/38036c054bc0.webp",
+   "/static/img/p/042b6b451f12.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Trump Cliff Villas",
+  "location": "Muscat, Oman",
+  "country": "Oman",
+  "brand_partner": "Trump",
+  "tagline": "",
+  "url": "https://darglobal.co.uk/aida-trump-international-cliff-villas",
+  "property_type": "Furnished Residences",
+  "unit_types": "3 bedroom villas",
+  "status": "Under Development",
+  "area_sqm": "128 - 166",
+  "benefits": "Golf Club Social Membership",
+  "description": "Trump Cliff Villas is a collection of fully furnished three-bedroom villas at AIDA, Muscat, developed by DarGlobal. Positioned beside the Trump International Hotel, 130 metres above the Muscat Riviera, each villa ranges from 128 to 166 sqm and features a private pool overlooking the sea. Owners receive a Golf Club Social Membership and the flexibility to reside in or lease the villa.",
+  "images": [
+   "/static/img/p/99afffc8436a.webp",
+   "/static/img/p/38976c76dabb.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Trump Golf Villas",
+  "location": "Muscat, Oman",
+  "country": "Oman",
+  "brand_partner": "Trump",
+  "tagline": "",
+  "url": "https://darglobal.co.uk/aida-trump-villas",
+  "property_type": "Mixed-use Development",
+  "status": "Under Development",
+  "unit_types": "5 bedrooms",
+  "area_sqm": "405",
+  "description": "Live the power of status. These luxurious residences represent the pinnacle of society, providing a gateway to a parallel world of unmatched. These spaces are meticulously designed and crafted with the utmost precision, aiming to provide the highest standard of sophisticated living.",
+  "images": [
+   "/static/img/p/bb04d20240d2.webp",
+   "/static/img/p/32f3c55b25d6.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Aida",
+  "location": "Muscat, Oman",
+  "country": "Oman",
+  "brand_partner": null,
+  "tagline": "",
+  "url": "https://darglobal.co.uk/landing-page/aida",
+  "property_type": "Master-planned community",
+  "specs_from_text": [
+   "property_type"
+  ],
+  "description": "In the heart of Muscat, nestled in the hilltops 130m above the shores is AIDA, a magnificent gated community and golfing destination overlooking the world. Its distinctive terrain of curvaceous valleys, sharp cliffs, and endless shores lines perch up a community that blends a vibrant coastal lifestyle with the tranquility of nature.",
+  "images": [
+   "/static/img/p/165e7d62a019.webp",
+   "/static/img/p/d8e342ad2b59.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Fairway Villas",
+  "location": "Aida, Oman",
+  "country": "Oman",
+  "brand_partner": null,
+  "tagline": "",
+  "url": "https://darglobal.co.uk/fairway-villas-aida-oman",
+  "property_type": "Villa",
+  "status": "Under Development",
+  "unit_types": "4 & 5 Bedrooms",
+  "area_sqm": "288 - 403",
+  "description": "These are no ordinary interiors; they are a true testament to the Golfing lifestyle. Offering between 4 and 5 bedrooms, the Fairway Villas’ interiors are a masterful blend of modern luxury and timeless elegance. They are designed to provide inviting living spaces throughout the property to complement the breathtaking exteriors overlooking the championship golf course.",
+  "images": [
+   "/static/img/p/496733a4ad8d.webp",
+   "/static/img/p/3027d3b3b037.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Azure Oceanfront Villas Interiors by Fendi Casa",
+  "location": "Aida, Oman",
+  "country": "Oman",
+  "brand_partner": "Fendi Casa",
+  "tagline": "",
+  "url": "https://darglobal.co.uk/one-of-one/fendi-casa-azure-oceanfront-villas",
+  "status": "Waiting List Open",
+  "unit_types": "5-bedroom",
+  "property_type": "Villas",
+  "specs_from_text": [
+   "property_type",
+   "status",
+   "unit_types"
+  ],
+  "description": "Azure Oceanfront Villas is a limited collection of five-bedroom residences, suspended 130 meters above the sea, inside AIDA, Oman’s most prestigious gated coastal community. Interiors by FENDI Casa. Nothing in front of you. Nothing above you. Only the horizon.",
+  "images": [
+   "/static/img/p/3d0c5f0207cc.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Amour Sans Detour",
+  "location": "Aida, Muscat, Oman",
+  "country": "Oman",
+  "brand_partner": null,
+  "tagline": "",
+  "url": "https://darglobal.co.uk/amour-sans-detour",
+  "property_type": "Fully Furnished 3BR",
+  "area_sqm": "108 - 111",
+  "description": "Situated in AIDA, a renowned golfing destination and exclusive gated community perched 130 meters above Muscat Bay, these villas embody idyllic coastal vibes. Just steps from the sea and mere moments from the golf course, each villa is thoughtfully designed for ultimate relaxation and epic play.",
+  "images": [
+   "/static/img/p/770a9742fa80.webp",
+   "/static/img/p/f28ef77b1bf4.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "The Great Escape",
+  "location": "Aida, Oman",
+  "country": "Oman",
+  "brand_partner": null,
+  "tagline": "",
+  "url": "https://darglobal.co.uk/the-great-escape-1-aida-oman",
+  "property_type": "Unfurnished apartments",
+  "area_sqm": "65 - 192",
+  "unit_types": "1,2,3 bedrooms",
+  "status": "Sold Out",
+  "description": "The Great Escape is a vibrant residential complex within AIDA, one the most beautiful, gated community and golfing destinations in the world. Surrounded by the majestic hilltops, cliffs, and valleys of Muscat, The Great Escape literally rises out of the cliff edges, steps away from the ocean.",
+  "images": [
+   "/static/img/p/02228b368f1e.webp",
+   "/static/img/p/6591ebf00b9d.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "The Great Escape 2",
+  "location": "Aida, Oman",
+  "country": "Oman",
+  "brand_partner": null,
+  "tagline": "",
+  "url": "https://darglobal.co.uk/the-great-escape-2-aida-oman",
+  "property_type": "Unfurnished apartments",
+  "area_sqm": "56 - 192",
+  "unit_types": "1,2,3 bedrooms",
+  "status": "Under Development",
+  "specs_from_text": [
+   "status"
+  ],
+  "description": "After the immense success of The Great Escape 1 and due to popular demand, the thrill is back! Within the vibrant Great Escape residential complex, is now the great Escape 2, rising 9 stories high at the edge of the cliffs, its organic design is directly inspired by the breathtaking environment and the adjacent sea.",
+  "images": [
+   "/static/img/p/a0b96b8ea13d.webp",
+   "/static/img/p/fa80a97fb50e.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Coastal Investment Villas",
+  "location": "Muscat, Oman",
+  "country": "Oman",
+  "brand_partner": null,
+  "tagline": "",
+  "url": "https://darglobal.co.uk/aida-coastal-investment-villas",
+  "property_type": "Villa",
+  "status": "Under Development",
+  "unit_types": "3 bedrooms",
+  "area_sqm": "125 - 224",
+  "description": "Situated in AIDA, an exclusive gated community and renowned golfing destination, perched 130 meters above the pristine shores, these villas represent an unparalleled investment opportunity. Positioned so close to the sea that you can feel the refreshing ocean breeze, the Coastal Investment Villas offer an exceptional blend of modern design and timeless craftsmanship.",
+  "images": [
+   "/static/img/p/76ad8e705341.webp",
+   "/static/img/p/23dadb590658.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Sunrise Haven",
+  "location": "Aida, Muscat, Oman",
+  "country": "Oman",
+  "brand_partner": null,
+  "tagline": "",
+  "url": "https://darglobal.co.uk/Sunrise-Haven-Luxury-Villas",
+  "property_type": "Fully Furnished 3BR",
+  "area_sqm": "125 - 159",
+  "description": "Situated in AIDA, a renowned golfing destination and exclusive gated community perched 130 meters above Muscat Bay, these villas embody idyllic coastal vibes. Just steps from the sea and mere moments from the golf course, each villa is thoughtfully designed for ultimate relaxation and epic play.",
+  "images": [
+   "/static/img/p/7c86076c17d5.webp",
+   "/static/img/p/77edb504c7e7.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Marriott Residences",
+  "location": "Aida, Oman",
+  "country": "Oman",
+  "brand_partner": "Marriott",
+  "tagline": "",
+  "url": "https://darglobal.co.uk/marriott-residences-aida-oman",
+  "property_type": "Branded Residential Complex",
+  "status": "Under Development",
+  "area_sqm": "60 - 194",
+  "unit_types": "1, 2, 3 Bedrooms",
+  "description": "Marriott Residences Aida, Oman is a branded residential complex at AIDA, Muscat, developed by Dar Al Arkan Property Development SPC using the Marriott name under license. The development offers fully furnished one-, two-, and three-bedroom apartments from 60 to 194 sqm, with à la carte services including concierge, reception, doorman, lobby, and valet. Located 130 metres above the Muscat Riviera and 25 minutes from Muscat International Airport.",
+  "images": [
+   "/static/img/p/a76e4758c096.webp",
+   "/static/img/p/2feace34645b.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Amour Sans Detour 2",
+  "location": "Aida, Muscat, Oman",
+  "country": "Oman",
+  "brand_partner": null,
+  "tagline": "",
+  "url": "https://darglobal.co.uk/amour-sans-detour-2",
+  "property_type": "Unfurnished 3BR",
+  "area_sqm": "91 - 92",
+  "description": "Situated in AIDA, a renowned golfing destination and exclusive gated community perched 130 meters above Muscat Bay, these villas embody idyllic coastal vibes. Just steps from the sea and mere moments from the golf course, each villa is thoughtfully designed for ultimate relaxation and epic play.",
+  "images": [
+   "/static/img/p/6f4d032a004e.webp",
+   "/static/img/p/e83796a02eba.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Nickelodeon Hotels & Resorts",
+  "location": "Aida, Oman",
+  "country": "Oman",
+  "brand_partner": "Nickelodeon",
+  "tagline": "",
+  "url": "https://darglobal.co.uk/play-project/nickelodeon",
+  "property_type": "Furnished Apartments",
+  "unit_types": "1, 2, 3 Bedrooms",
+  "status": "Under Development",
+  "area_sqm": "41 - 154",
+  "benefits": "Unlimited Fun 24/7",
+  "description": "Oman is quickly becoming one of the most prominent commercial and cultural hubs in the region and is rapidly becoming a prime investment destination due to its attractive benefits. From its favorable tax environment and its strategic location as a gateway to the Middle East and Africa, Oman offers countless opportunities for businesses to grow and thrive.",
+  "images": [
+   "/static/img/p/f9f9bdf76757.webp",
+   "/static/img/p/731d74ab8b24.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "The Mulliner",
+  "location": "149 Old Park Lane, London, United Kingdom",
+  "country": "United Kingdom",
+  "brand_partner": "Mulliner",
+  "tagline": "",
+  "url": "https://darglobal.co.uk/the-mulliner",
+  "property_type": "5-Bedroom Apartment",
+  "status": "Completed & Sold Out",
+  "area_sqm": "485.22",
+  "unit_types": "5-bedroom",
+  "specs_from_text": [
+   "unit_types"
+  ],
+  "description": "Situated on the corner of Old Park Lane and Piccadilly, overlooking Green Park. Nº149 is one of the finest Grade II properties on Old Park Lane. It has been meticulously redeveloped and designed to the highest of standards throughout.",
+  "images": [
+   "/static/img/p/d084458dcee9.webp",
+   "/static/img/p/377d9c3ac4fa.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "7&8 Albert Hall Mansions",
+  "location": "Overlooking Hyde Park, London, England",
+  "country": "United Kingdom",
+  "brand_partner": null,
+  "tagline": "",
+  "url": "https://darglobal.co.uk/one-of-one/THE-ALBERT-HALL-MANSION",
+  "status": "Waiting List Open",
+  "property_type": "Mansion",
+  "specs_from_text": [
+   "property_type",
+   "status"
+  ],
+  "description": "Albert Hall Mansions, nestled in the heart of London, is an iconic residential complex with a rich Victorian heritage. Designed by renowned architect Richard Norman Shaw, construction began in 1879 and concluded in 1886, marking a milestone in London’s architectural evolution. Among the city’s first luxury apartments, it catered to Victorian elites. Its red-brick façade, ornate terracotta details, and grand gables epitomize the Queen Anne revival style. Home to notable figures over the years, it remains a symbol of prestige and timeless elegance.",
+  "images": [
+   "/static/img/p/381fd570be28.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Trump Park Residences",
+  "location": "Amaya, Jeddah, KSA",
+  "country": "Saudi Arabia",
+  "brand_partner": "Trump",
+  "tagline": "",
+  "url": "https://darglobal.co.uk/trump-plaza/park-residences",
+  "property_type": "Branded Apartments and Townhouses",
+  "unit_types": "2, 3, & 4 Bedroom Residences",
+  "area_sqm": "91 - 364",
+  "status": "Under Development",
+  "description": "A LIMITED COLLECTION OF 2, 3, AND 4-BEDROOM APARTMENTS AND 3 AND 4-BEDROOM ESTATE-STYLE TOWNHOUSES, SET AROUND A PRIVATE PARK EXTENDING OVER 7,000 SQUARE METERS.",
+  "images": [
+   "/static/img/p/74d349093108.webp",
+   "/static/img/p/11b573941f07.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Trump Mansions",
+  "location": "Rayana, Wadi Safar, Riyadh",
+  "country": "Saudi Arabia",
+  "brand_partner": "Trump",
+  "tagline": "Trump Branded Residences",
+  "url": "https://darglobal.co.uk/rayana/trump-mansions",
+  "property_type": "Trump Branded Mansions",
+  "area_sqm": "1,250 / 2,000 / 5,400 sqm",
+  "status": "Under Development",
+  "description": "A limited collection of Trump-branded residences located inside Rayana, Wadi Safar’s double gated community overlooking the championship golf course, defined by iconic architecture and a globally recognized standard of luxury interiors.",
+  "images": [
+   "/static/img/p/d22afbf569bf.webp",
+   "/static/img/p/fd5f94130245.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Trump Executive Residences",
+  "location": "Amaya, Jeddah, KSA",
+  "country": "Saudi Arabia",
+  "brand_partner": "Trump",
+  "tagline": "Premium furnished Trump residences",
+  "url": "https://darglobal.co.uk/trump-plaza/executive-residences",
+  "property_type": "Fully Furnished Trump Branded Residences",
+  "unit_types": "1,2,3-Bedroom Residences",
+  "area_sqm": "69 - 176",
+  "status": "Under Development",
+  "description": "",
+  "images": [
+   "/static/img/p/639401d89f68.webp",
+   "/static/img/p/bae9023b1991.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Amaya",
+  "location": "Amaya, Jeddah, KSA",
+  "country": "Saudi Arabia",
+  "brand_partner": null,
+  "tagline": "Luxury Plots in Amaya, Jeddha",
+  "url": "https://darglobal.co.uk/amaya/amaya-plots",
+  "status": "Completed",
+  "specs_from_text": [
+   "status"
+  ],
+  "description": "Spanning 1,000,000 sqm, Amaya offers construction-ready land, flat topography, and unmatched access, a rare chance to develop within the urban core of a city entering a major transformation.",
+  "images": [
+   "/static/img/p/8d8cb7ff6d67.webp",
+   "/static/img/p/d56ee842f282.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Padel Living Residences",
+  "location": "Jeddah, KSA",
+  "country": "Saudi Arabia",
+  "brand_partner": null,
+  "tagline": "",
+  "url": "https://darglobal.co.uk/amaya/padel-living",
+  "property_type": "Residences",
+  "specs_from_text": [
+   "property_type"
+  ],
+  "description": "Padel Living Residences is a new residential concept on King Abdulaziz Road in the heart of Jeddah, created for people who thrive on movement, connection, and city life. It brings together contemporary residences, exclusive rooftop padel courts, and a vibrant community within a uniquely connected address.",
+  "images": [
+   "/static/img/p/d1bafe608586.webp",
+   "/static/img/p/3cf2633e909c.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Neptune, Interiors by Mouawad",
+  "location": "Riyadh, KSA",
+  "country": "Saudi Arabia",
+  "brand_partner": "Mouawad",
+  "tagline": "",
+  "url": "https://darglobal.co.uk/neptune",
+  "property_type": "Branded Villas",
+  "status": "Under Development",
+  "unit_types": "5 Bedrooms",
+  "area_sqm": "300 - 448",
+  "description": "Neptune, Interiors by Mouawad is an exclusive collection of branded five-bedroom villas in the north of Riyadh, Saudi Arabia, developed by DarGlobal. Mouawad, the Swiss-Lebanese jewellery house known for record-setting gemstones and artisanal craftsmanship, provided the interior design throughout each villa, ranging from 300 to 420 sqm built-up area. Located near the Expo 2030 site.",
+  "images": [
+   "/static/img/p/e34cd6d86319.webp",
+   "/static/img/p/db1dcbd4e0b3.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Trump Tower Jeddah",
+  "location": "Jeddah, KSA",
+  "country": "Saudi Arabia",
+  "brand_partner": "Trump",
+  "tagline": "",
+  "url": "https://darglobal.co.uk/trump-tower-jeddah",
+  "property_type": "Seafront Residences",
+  "unit_types": "1, 2, 3, 4 Bedroom Apartments & 3, 4 Bedroom Penthouses",
+  "area_sqm": "70 to 365",
+  "status": "Completed",
+  "specs_from_text": [
+   "status"
+  ],
+  "description": "Trump Tower Jeddah is a 47-floor Trump-branded seafront residential tower on the Jeddah Corniche, developed by DarGlobal. Apartments and penthouses range from 70 to 365 sqm across one- to four-bedroom configurations, all with uninterrupted Red Sea views. The tower includes the Trump Private Club, offering residents fine dining, a gym, pool, cigar lounge, and 24/7 concierge.",
+  "images": [
+   "/static/img/p/2ec6da210a40.webp",
+   "/static/img/p/2b804b529c25.webp"
+  ]
+ },
+ {
+  "source": "darglobal",
+  "name": "Darglobal Mansions Interiors by Fendi Casa",
+  "location": "Wadi Safar, Riyadh, Saudi Arabia",
+  "country": "Saudi Arabia",
+  "brand_partner": "Fendi Casa",
+  "tagline": "",
+  "url": "https://darglobal.co.uk/rayana/darglobal-mansions-fendi-casa",
+  "property_type": "FENDI Casa Mansions",
+  "status": "Under Development",
+  "description": "",
+  "images": [
+   "/static/img/p/9443cc0b07b5.webp",
+   "/static/img/p/04ad4a2f3256.webp"
+  ]
+ }
+]

@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How It Works · Property Advisor</title>
+<meta name="description" content="Architecture, data pipeline, model chain, guardrails and evaluation of the Dar Global & Wasalt property advisor.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2314110e'/%3E%3Cpath d='M18 52V30a14 14 0 0 1 28 0v22' fill='none' stroke='%23e3cc9c' stroke-width='3.4' stroke-linecap='round'/%3E%3Cpath d='M12 52h40' stroke='%23e3cc9c' stroke-width='3.4' stroke-linecap='round'/%3E%3Cpath d='M32 18.4l2 4.4 4.8.6-3.6 3.2 1 4.8-4.2-2.4-4.2 2.4 1-4.8-3.6-3.2 4.8-.6z' fill='%23c9a96a'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#0c0c0e">
+<script>
+  try { const t = localStorage.getItem('theme') || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+        document.documentElement.dataset.theme = t; } catch { document.documentElement.dataset.theme = 'dark'; }
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#14110e; --bg-2:#1a1612; --panel:#211c17; --panel-2:#29231c; --line:rgba(214,178,112,.18); --line-2:rgba(255,236,210,.08);
+  --ink:#eee5d5; --ink-2:#d0c4b0; --muted:#9b8f7d; --gold:#c9a96a; --gold-2:#e8d3a4; --gold-ink:#17130b; --ok:#9fd3a8; --warn:#e0a07a;
+  --strong:#fbf3e4;
+  --serif:"Cormorant Garamond", Georgia, serif; --sans:"Manrope", system-ui, -apple-system, "Segoe UI", sans-serif; --mono:"JetBrains Mono", ui-monospace, Consolas, monospace;
+}
+:root[data-theme="light"]{
+  --bg:#f5eee2; --bg-2:#ede3d3; --panel:#fbf6ee; --panel-2:#f2e9da; --line:rgba(140,104,48,.24); --line-2:rgba(80,58,28,.11);
+  --ink:#2c2218; --ink-2:#4b3e2f; --muted:#7c6d59; --gold:#9b7535; --gold-2:#7a5a22; --gold-ink:#fffaf1; --ok:#2f7a46; --warn:#a85d2c; --strong:#1d150d;
+}
+:root[data-theme="light"] .top{ background:rgba(245,238,226,.85); }
+*{ box-sizing:border-box; }
+html{ scroll-behavior:smooth; }
+body{ margin:0; background:radial-gradient(70% 40% at 100% 0%, rgba(201,169,106,.07), transparent 60%), var(--bg); color:var(--ink); font:15px/1.7 var(--sans); -webkit-font-smoothing:antialiased; }
+a{ color:var(--gold-2); }
+code, .mono{ font-family:var(--mono); font-size:.86em; }
+code{ background:var(--bg-2); border:1px solid var(--line-2); border-radius:6px; padding:1px 6px; color:var(--gold-2); }
+.wrap{ max-width:1080px; margin:0 auto; padding:0 28px; }
+
+/* top */
+.top{ position:sticky; top:0; z-index:10; backdrop-filter:blur(10px); background:rgba(12,12,14,.78); border-bottom:1px solid var(--line-2); }
+.top .wrap{ display:flex; align-items:center; gap:16px; height:62px; }
+.mark{ display:flex; align-items:center; gap:12px; letter-spacing:.32em; font-size:11px; text-transform:uppercase; color:var(--gold-2); text-decoration:none; }
+.mono-badge svg.logo{ width:62%; height:62%; color:var(--gold-2); }
+.mono-badge{ width:34px; height:34px; border:1px solid var(--gold); border-radius:50%; display:grid; place-items:center; font:600 13px/1 var(--serif); letter-spacing:0; }
+.top nav{ margin-inline-start:auto; display:flex; gap:4px; overflow-x:auto; scrollbar-width:none; }
+.top nav a{ color:var(--ink-2); text-decoration:none; font-size:13px; padding:6px 10px; border-radius:8px; white-space:nowrap; }
+.top nav a:hover{ color:var(--ink); background:var(--panel); }
+.back{ border:1px solid var(--line); border-radius:999px; padding:7px 14px !important; color:var(--gold-2) !important; }
+
+/* hero */
+header.hero{ padding:72px 0 36px; }
+.eyebrow{ color:var(--gold); font-size:11px; letter-spacing:.3em; text-transform:uppercase; }
+h1{ font:500 clamp(40px,5.4vw,68px)/1.02 var(--serif); margin:12px 0 18px; letter-spacing:-.01em; }
+h1 em{ color:var(--gold-2); }
+.lede{ max-width:720px; color:var(--ink-2); font-size:17px; margin:0; }
+.kpis{ display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; margin-top:38px; }
+.kpi{ border:1px solid var(--line-2); border-radius:16px; padding:16px 18px; background:linear-gradient(180deg,var(--panel),var(--bg-2)); }
+.kpi b{ display:block; font:500 34px/1.05 var(--serif); color:var(--gold-2); font-variant-numeric:tabular-nums; }
+.kpi span{ font-size:12px; color:var(--muted); }
+.live{ display:inline-flex; align-items:center; gap:6px; font-size:11px; color:var(--muted); margin-top:12px; }
+.live::before{ content:""; width:7px; height:7px; border-radius:50%; background:var(--ok); box-shadow:0 0 0 0 rgba(159,211,168,.5); animation:pulse 2s infinite; }
+@keyframes pulse{ 70%{ box-shadow:0 0 0 8px rgba(159,211,168,0);} }
+
+section{ padding:56px 0; border-top:1px solid var(--line-2); }
+h2{ font:600 clamp(28px,3.2vw,40px)/1.15 var(--serif); margin:6px 0 10px; }
+.sub{ color:var(--ink-2); max-width:760px; margin:0 0 28px; }
+
+/* flow */
+.flow{ position:relative; display:grid; gap:14px; }
+.flow::before{ content:""; position:absolute; inset-inline-start:27px; top:28px; bottom:28px; width:1px; background:linear-gradient(var(--gold),rgba(201,169,106,.15)); }
+.step{ position:relative; display:grid; grid-template-columns:56px 1fr; gap:18px; align-items:start; }
+.step .n{ width:56px; height:56px; border-radius:50%; border:1px solid var(--gold); background:var(--bg); display:grid; place-items:center; font:600 20px var(--serif); color:var(--gold-2); z-index:1; }
+.step .card{ border:1px solid var(--line-2); border-radius:16px; background:var(--panel); padding:16px 20px; }
+.step h3{ margin:0 0 4px; font:600 21px/1.25 var(--serif); display:flex; flex-wrap:wrap; align-items:center; gap:10px; }
+.step p{ margin:4px 0 0; color:var(--ink-2); font-size:14px; }
+.chip{ font:500 10.5px/1 var(--sans); letter-spacing:.1em; text-transform:uppercase; padding:5px 8px; border-radius:999px; border:1px solid var(--line); color:var(--gold-2); }
+.chip.code{ color:var(--ok); border-color:rgba(159,211,168,.35); }
+.chip.llm{ color:#b9a7e8; border-color:rgba(185,167,232,.35); }
+.tools{ display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; margin-top:12px; }
+.tool{ background:var(--bg-2); border:1px solid var(--line-2); border-radius:10px; padding:10px 12px; font-size:12.5px; color:var(--ink-2); }
+.tool b{ display:block; font:500 12.5px var(--mono); color:var(--gold-2); margin-bottom:2px; }
+
+/* models */
+.grid2{ display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:16px; align-items:start; }
+.grid2 > *, .dec > *, .big > *{ min-width:0; }
+.chain li{ flex-wrap:wrap; } .chain .mono{ overflow-wrap:anywhere; }
+.box{ border:1px solid var(--line-2); border-radius:16px; background:var(--panel); padding:18px 20px; }
+.box h3{ margin:0 0 10px; font:600 20px var(--serif); }
+.chain{ list-style:none; margin:0; padding:0; counter-reset:c; }
+.chain li{ counter-increment:c; display:flex; align-items:center; gap:10px; padding:9px 0; border-bottom:1px solid var(--line-2); font-size:13.5px; }
+.chain li:last-child{ border-bottom:0; }
+.chain li::before{ content:counter(c); width:22px; height:22px; border-radius:50%; background:var(--bg-2); border:1px solid var(--line); display:grid; place-items:center; font-size:11px; color:var(--gold-2); flex:0 0 22px; }
+.chain .prov{ font-size:10.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-inline-start:auto; white-space:nowrap; }
+.chain .cool{ color:var(--warn); }
+.note{ font-size:12.5px; color:var(--muted); margin-top:10px; }
+
+/* pipeline */
+.pipe{ display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:10px; }
+.pipe .p{ position:relative; border:1px solid var(--line-2); border-radius:14px; background:var(--panel); padding:14px; }
+.pipe .p:not(:last-child)::after{ content:"→"; position:absolute; inset-inline-end:-13px; top:50%; transform:translateY(-50%); color:var(--gold); z-index:1; }
+html[dir=rtl] .pipe .p:not(:last-child)::after{ content:"←"; }
+.pipe b{ display:block; font:600 17px var(--serif); margin-bottom:4px; }
+.pipe span{ font-size:12.5px; color:var(--ink-2); display:block; }
+.pipe .num{ font:500 22px var(--serif); color:var(--gold-2); margin-top:8px; }
+
+/* decisions */
+.dec{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+.dec .box p{ margin:0; color:var(--ink-2); font-size:14px; }
+.dec .box h3{ font-size:19px; }
+.dec .found{ margin-top:10px; font-size:12.5px; color:var(--warn); }
+.dec .found::before{ content:"Found in testing · "; color:var(--muted); }
+
+/* eval */
+table{ width:100%; border-collapse:collapse; font-size:14px; }
+th{ text-align:start; font-weight:600; color:var(--gold-2); border-bottom:1px solid var(--gold); padding:9px 12px; font-size:12.5px; }
+td{ border-bottom:1px solid var(--line-2); padding:9px 12px; font-variant-numeric:tabular-nums; }
+tr.best td{ color:var(--gold-2); font-weight:600; }
+.bar{ display:inline-block; height:6px; border-radius:4px; background:linear-gradient(90deg,rgba(201,169,106,.45),var(--gold)); vertical-align:middle; margin-inline-end:8px; }
+.ok{ color:var(--ok); } .bad{ color:var(--warn); }
+.big{ display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin-bottom:18px; }
+.lim li{ margin:6px 0; color:var(--ink-2); }
+footer{ border-top:1px solid var(--line-2); padding:28px 0 40px; color:var(--muted); font-size:12.5px; }
+.skeleton{ color:var(--muted); }
+
+@media (max-width:900px){
+  .wrap{ padding:0 16px; }
+  .top nav a:not(.back){ display:none; }
+  .kpis{ grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .tools, .grid2, .dec, .big{ grid-template-columns:minmax(0,1fr); }
+  .chain .prov{ white-space:normal; margin-inline-start:32px; flex-basis:100%; }
+  .pipe{ grid-template-columns:1fr; }
+  .pipe .p:not(:last-child)::after{ content:"↓"; inset-inline-end:auto; inset-inline-start:50%; top:auto; bottom:-17px; transform:translateX(-50%); }
+  .step{ grid-template-columns:44px 1fr; gap:12px; } .step .n{ width:44px; height:44px; font-size:17px; } .flow::before{ inset-inline-start:21px; }
+  .scroll{ overflow-x:auto; }
+}
+@media (prefers-reduced-motion: reduce){ *{ animation:none !important; scroll-behavior:auto !important; } }
+</style>
+</head>
+<body>
+<div class="top"><div class="wrap">
+  <a class="mark" href="/"><span class="mono-badge"><svg class="logo" viewBox="0 0 32 32" aria-hidden="true"><path d="M9 26V15a7 7 0 0 1 14 0v11" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M6 26h20" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M16 9.2l1 2.2 2.4.3-1.8 1.6.5 2.4-2.1-1.2-2.1 1.2.5-2.4-1.8-1.6 2.4-.3z" fill="currentColor"/></svg></span><span>Property Advisor</span></a>
+  <nav><a href="#flow">Flow</a><a href="#models">Models</a><a href="#data">Data</a><a href="#decisions">Decisions</a><a href="#eval">Evaluation</a><a href="#limits">Limits</a>
+    <a class="back" href="/">← Back to the advisor</a></nav>
+</div></div>
+
+<header class="hero"><div class="wrap">
+  <div class="eyebrow">How it works</div>
+  <h1>A grounded agent,<br><em>not a chatbot wrapper</em></h1>
+  <p class="lede">The advisor answers from public Dar Global and Wasalt data that was scraped, cleaned and checked.
+    Language models plan and write; <strong>every number, filter, comparison and calculation is computed in code</strong>, and every claim cites its source.
+    The figures on this page come from the running server and from the latest test runs.</p>
+  <div class="kpis" id="kpis">
+    <div class="kpi"><b id="k-pages">…</b><span>pages scraped (2 sites)</span></div>
+    <div class="kpi"><b id="k-listings">…</b><span>Wasalt listings in use</span></div>
+    <div class="kpi"><b id="k-eval">…</b><span>eval answers correct</span></div>
+    <div class="kpi"><b id="k-checks">…</b><span>automated checks passing</span></div>
+  </div>
+  <div class="live" id="live">Live from <code>/api/health</code></div>
+</div></header>
+
+<section id="flow"><div class="wrap">
+  <div class="eyebrow">01 · The life of a question</div>
+  <h2>Plan → act → answer</h2>
+  <p class="sub">A validated JSON plan works with any instruction-following model, is easy to log, and falls back to plain search if it doesn't parse.
+    The <em>How I found this</em> panel under every answer shows these steps for that question.</p>
+  <div class="flow">
+    <div class="step"><div class="n">0</div><div class="card"><h3>Voice (optional) <span class="chip">Google Speech-to-Text · Chirp 3</span></h3>
+      <p>The browser records 16 kHz WAV and stops on silence. The UI language plus Arabic are passed as language hints; brand names are boosted, then normalised in code
+        (French heard "Dar Global" as <em>"d'art global"</em>). Silence never reaches a model: given silence, the fallback once invented a sentence.</p></div></div>
+    <div class="step"><div class="n">1</div><div class="card"><h3>Guardrails <span class="chip code">Code · before any model</span></h3>
+      <p>Prompt-injection and prompt-extraction attempts in five languages get a fixed, localized reply (no model call, nothing to argue with).
+        Phone numbers and emails are removed before any provider sees the message.</p></div></div>
+    <div class="step"><div class="n">2</div><div class="card"><h3>Plan <span class="chip llm">LLM → JSON</span></h3>
+      <p>The planner returns which tools to run with typed arguments, plus three follow-up suggestions in the user's language.
+        The plan is validated against a whitelist; money like "2M" is parsed in code.</p></div></div>
+    <div class="step"><div class="n">3</div><div class="card"><h3>Act <span class="chip code">Deterministic tools</span></h3>
+      <div class="tools">
+        <div class="tool"><b>search_pages</b>Hybrid BM25 + bge-small embeddings, fused with RRF</div>
+        <div class="tool"><b>filter_listings</b>Typed filters + medians and price per m²</div>
+        <div class="tool"><b>list_projects / get_project</b>Portfolio by country, city or brand; fuzzy lookup</div>
+        <div class="tool"><b>compare</b>2–4 projects or markets; best values marked by rule</div>
+        <div class="tool"><b>rental_yield</b>Median rent ÷ median price, with a confidence label</div>
+        <div class="tool"><b>investment_calc</b>Mortgage, cash flow, net yield (incl. 5% RETT)</div>
+      </div></div></div>
+    <div class="step"><div class="n">4</div><div class="card"><h3>Answer <span class="chip llm">LLM · streamed</span></h3>
+      <p>Written only from the tool results, citing <code>[n]</code> sources, in the language the user picked. Scraped text is treated as data, never as instructions.
+        No promised returns, no price predictions, no personal contact details, and fair-housing requests are declined.</p></div></div>
+    <div class="step"><div class="n">5</div><div class="card"><h3>Interface <span class="chip">Vanilla JS · 5 languages</span></h3>
+      <p>Photo cards for listings and projects, the interactive calculator, side-by-side comparisons, inline citations, follow-up chips and RTL Arabic.
+        The comparison builder calls <code>/api/compare</code> directly: instant, no LLM quota.</p></div></div>
+  </div>
+</div></section>
+
+<section id="models"><div class="wrap">
+  <div class="eyebrow">02 · Models</div>
+  <h2>A chain, not a single point of failure</h2>
+  <p class="sub">Each (provider, model) pair is a candidate, tried in order. A candidate is skipped if it errors, returns nothing, or fails mid-stream; one that returns HTTP 429
+    is put on a two-minute cooldown so later requests skip it instantly; OpenRouter's daily free cap is recognised from its reply
+    and parks every OpenRouter model until midnight UTC. Gemini on Vertex AI answers first; the free OpenRouter models are the backup.</p>
+  <div class="grid2">
+    <div class="box"><h3>Language models <span class="note" style="font-size:12px">(live order)</span></h3><ol class="chain" id="chain"><li class="skeleton">Loading…</li></ol>
+      <div class="note">Vertex AI needs no API key: the Cloud Run service account authenticates. Claude via the Anthropic SDK is wired in but stays off without a key.</div></div>
+    <div class="box"><h3>Speech-to-text</h3><ol class="chain" id="stt"><li class="skeleton">Loading…</li></ol>
+      <div class="note">Audio is transcribed and discarded; nothing is stored.</div>
+      <h3 style="margin-top:18px">Embeddings</h3><ol class="chain"><li>BAAI/bge-small-en-v1.5 <span class="prov">fastembed · ONNX on CPU · built into the image</span></li></ol></div>
+  </div>
+</div></section>
+
+<section id="data"><div class="wrap">
+  <div class="eyebrow">03 · Data</div>
+  <h2>Scraped politely, then checked</h2>
+  <p class="sub">Real Chrome with a persistent profile, 1.5–3.5 s between pages, Wasalt's robots.txt respected. Both sites use bot protection; a person completed
+    the one-time check and the crawler never solves CAPTCHAs itself.</p>
+  <div class="pipe">
+    <div class="p"><b>Crawl</b><span>Rendered page text, links</span><div class="num" id="d-pages">…</div><span>pages</span></div>
+    <div class="p"><b>Extract</b><span>Listing cards, project specs (tables and prose)</span><div class="num" id="d-projects">…</div><span>projects</span></div>
+    <div class="p"><b>Photos</b><span>Matched by URL slug + price; project photos self-hosted</span><div class="num">98%</div><span>listings with a photo</span></div>
+    <div class="p"><b>Quality</b><span>Implausible prices flagged and excluded</span><div class="num" id="d-excluded">…</div><span>listings excluded</span></div>
+    <div class="p"><b>Index</b><span>Chunks embedded at image build time</span><div class="num" id="d-chunks">…</div><span>chunks</span></div>
+  </div>
+</div></section>
+
+<section id="decisions"><div class="wrap">
+  <div class="eyebrow">04 · Decisions</div>
+  <h2>What was decided, and why</h2>
+  <p class="sub">Most of these came from measuring, not guessing. Where testing changed the design, it says so.</p>
+  <div class="dec">
+    <div class="box"><h3>Numbers come from code, never from the model</h3><p>Filters, medians, yields, mortgage maths and every comparison cell are computed in Python, and the browser uses
+      the identical formula for the calculator's sliders. The model explains the numbers; it doesn't produce them.</p></div>
+    <div class="box"><h3>Hybrid retrieval</h3><p>BM25 wins on exact names (projects, districts), embeddings win on paraphrases, and Reciprocal Rank Fusion merges them without tuning
+      score scales. Hybrid beats either alone on the labelled set (see below).</p></div>
+    <div class="box"><h3>Yields from medians, not per-m² ratios</h3><p>Rental listings often carry the plot size as their area, which made per-m² yields absurd. Thin samples are labelled
+      low confidence and kept out of rankings.</p><div class="found">a 3-rental sample briefly made Makkah villas look like an 11% yield</div></div>
+    <div class="box"><h3>Comparisons judge like with like</h3><p>Best values are marked only within the same property type, never from thin samples. Unknown names are reported as
+      not found rather than fuzzy-matched to something else.</p><div class="found">an apartment was being marked "cheaper" than villas</div></div>
+    <div class="box"><h3>Data is checked, not just scraped</h3><p>Implausible prices are flagged and excluded; a photo shared by several project pages is treated as a banner;
+      specs read from prose are tagged and were checked against their source sentences.</p>
+      <div class="found">one project showed another project's photo; a SAR 3,500 "plot" was the cheapest land</div></div>
+    <div class="box"><h3>Two layers of guardrails</h3><p>Code blocks what must never reach a model (injection, contact details); prompt rules handle judgement calls
+      (no promised returns, fair housing, off-topic), measured by the eval.</p>
+      <div class="found">the first fair-housing answer said "no data" instead of declining</div></div>
+  </div>
+</div></section>
+
+<section id="eval"><div class="wrap">
+  <div class="eyebrow">05 · Evaluation</div>
+  <h2>Measured, not assumed</h2>
+  <p class="sub" id="eval-sub">labelled questions across both sites: company facts, projects, listings, investment maths, comparisons, Arabic and safety cases.
+    Each checks the tool the planner chose and the facts in the answer, and safety cases also list strings that must never appear.</p>
+  <div class="big">
+    <div class="kpi"><b id="e-tool">…</b><span>tool selection</span></div>
+    <div class="kpi"><b id="e-ans">…</b><span>answers contain the expected facts</span></div>
+    <div class="kpi"><b id="e-safe">…</b><span>safety cases passed</span></div>
+  </div>
+  <div class="grid2">
+    <div class="box scroll"><h3>Retrieval (30 questions with labelled sources)</h3><table id="ret"><thead><tr><th>Retriever</th><th>hit@1</th><th>hit@3</th><th>hit@6</th><th>MRR</th></tr></thead><tbody></tbody></table></div>
+    <div class="box scroll"><h3>Automated test suites</h3><table id="suites"><thead><tr><th>Suite</th><th>Result</th></tr></thead><tbody></tbody></table>
+      <div class="note" id="suites-note"></div></div>
+  </div>
+</div></section>
+
+<section id="limits"><div class="wrap">
+  <div class="eyebrow">06 · Limits</div>
+  <h2>What it doesn't do</h2>
+  <ul class="lim">
+    <li><strong>Listings are a sample.</strong> They come from the first result pages of each Wasalt city and category, not the full inventory, and the bot says so.</li>
+    <li><strong>Asking prices, not transactions.</strong> Yields and medians describe what sellers and landlords ask, on the scrape date.</li>
+    <li><strong>Dar Global publishes no prices.</strong> Those cells say "Price on request" rather than guessing.</li>
+    <li><strong>The backup has a quota.</strong> The free OpenRouter models allow 50 requests per day; when Gemini is unavailable and that cap is reached, the app says the models are busy.</li>
+    <li><strong>Not affiliated.</strong> An independent prototype built for an application; not an official channel or financial advice.</li>
+  </ul>
+</div></section>
+
+<footer><div class="wrap">Built with FastAPI on Google Cloud Run · Data from public pages of darglobal.co.uk and wasalt.sa · <a href="/">Back to the advisor</a> · <span id="gen"></span></div></footer>
+
+<script>
+const $ = id => document.getElementById(id);
+const fmt = n => new Intl.NumberFormat('en-GB').format(n);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const pct = v => Math.round(v * 1000) / 10 + '%';
+let checks = { pass: 0, total: 0 };
+
+fetch('/api/health').then(r => r.json()).then(h => {
+  const pages = Object.values(h.pages || {}).reduce((a, b) => a + b, 0);
+  $('k-pages').textContent = fmt(pages); $('d-pages').textContent = fmt(pages);
+  $('k-listings').textContent = fmt(h.listings); $('d-projects').textContent = fmt(h.projects);
+  $('d-excluded').textContent = fmt(h.listings_excluded || 0); $('d-chunks').textContent = fmt(h.chunks);
+  const cool = new Set(h.llm.cooling_down || []);
+  $('chain').innerHTML = (h.llm.order || []).map(c => { const [p, ...m] = c.split(':'); const model = m.join(':');
+    return `<li><span class="mono">${esc(model)}</span><span class="prov ${cool.has(c) ? 'cool' : ''}">${esc(p)}${cool.has(c) ? ' · cooling down' : ''}</span></li>`; }).join('')
+    || '<li>No provider configured</li>';
+  if (h.stt) $('stt').innerHTML = `<li><span class="mono">${esc(h.stt.model)}</span><span class="prov">Google Cloud · ${esc(h.stt.location)} endpoint</span></li>
+      <li><span class="mono">${esc(h.stt.fallback.split(':')[1])}</span><span class="prov">fallback · Vertex AI</span></li>`;
+  $('live').textContent = 'Live from /api/health · ' + new Date().toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' });
+}).catch(() => { $('live').textContent = 'Live data unavailable'; });
+
+fetch('/static/metrics.json').then(r => r.json()).then(m => {
+  const e = m.e2e, n = e.questions || e.n;
+  $('e-tool').textContent = `${Math.round(e.tool_selection_acc * n)}/${n}`;
+  $('e-ans').textContent = `${Math.round(e.answer_keyword_acc * n)}/${n}`;
+  $('e-safe').textContent = e.safety_pass; $('k-eval').textContent = `${Math.round(e.answer_keyword_acc * n)}/${n}`;
+  $('eval-sub').insertAdjacentText('afterbegin', `${n} `);
+  const names = { bm25: 'BM25', dense: 'Dense (bge-small)', hybrid: 'Hybrid (RRF)' };
+  $('ret').querySelector('tbody').innerHTML = Object.entries(m.retrieval).map(([k, v]) =>
+    `<tr class="${k === 'hybrid' ? 'best' : ''}"><td>${names[k] || k}</td><td>${v['hit@1'].toFixed(3)}</td><td>${v['hit@3'].toFixed(3)}</td><td>${v['hit@6'].toFixed(3)}</td>
+     <td><span class="bar" style="width:${(v.MRR * 70).toFixed(0)}px"></span>${v.MRR.toFixed(3)}</td></tr>`).join('');
+  const rows = [];
+  for (const s of m.browser_suites || []) { checks.pass += s.passed; checks.total += s.total;
+    rows.push(`<tr><td>${esc(s.label)}<br><span class="note mono">${esc(s.name)} · ${s.target.includes('run.app') ? 'live site' : 'local'}</span></td>
+      <td class="${s.passed === s.total ? 'ok' : 'bad'}">${s.passed}/${s.total} checks</td></tr>`); }
+  for (const t of m.offline_tests || []) rows.push(`<tr><td><span class="mono">${esc(t.name)}</span><br><span class="note">${esc(t.detail)}</span></td>
+      <td class="${t.passed ? 'ok' : 'bad'}">${t.passed ? 'pass' : 'fail'}</td></tr>`);
+  $('suites').querySelector('tbody').innerHTML = rows.join('');
+  $('suites-note').textContent = 'Browser suites drive real Chrome; the voice suite plays recorded speech into a fake microphone.';
+  $('k-checks').textContent = checks.total ? `${fmt(checks.pass)}/${fmt(checks.total)}` : '—';
+  $('gen').textContent = `Metrics generated ${m.generated}`;
+}).catch(() => {});
+</script>
+</body>
+</html>
