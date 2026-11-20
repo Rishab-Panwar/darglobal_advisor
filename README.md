@@ -4,7 +4,7 @@
 
 # Property Advisor
 
-*Branded residences abroad. Homes across Saudi Arabia. One advisor to ask.*
+*Explore, compare and evaluate property, in one conversation.*
 
 [Features](#features) · [How It Works](#how-it-works) · [Architecture](#system-architecture) · [Tech Stack](#tech-stack) · [Evaluation](#evaluation) · [Local Setup](#local-setup)
 
